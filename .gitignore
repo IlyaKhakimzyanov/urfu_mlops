@@ -1,3 +1,11 @@
+#
 backup/*
-
 .idea
+.venv
+.vscode
+
+# lab1
+lab1/train/*
+lab1/test/*
+lab1/processed/*
+lab1/models/*
