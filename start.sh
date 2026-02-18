@@ -34,10 +34,10 @@ fi
 
 # Установка зависимостей
 if [ -f "requirements.txt" ]; then
-    echo "Устанавливаю зависимости..."
+    # echo "Устанавливаю зависимости..."
     pip install --upgrade pip
     pip install -r requirements.txt
-    echo "Зависимости установлены"
+    # echo "Зависимости установлены"
 else
     echo "Файл requirements.txt не найден"
 fi
