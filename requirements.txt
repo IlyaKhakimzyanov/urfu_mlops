@@ -2,3 +2,4 @@ pipreqs
 requests>=2.32.5
 pandas
 numpy
+scikit-learn
