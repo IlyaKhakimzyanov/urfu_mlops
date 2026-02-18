@@ -1,5 +1,6 @@
 #
 backup/*
+back_dataset/*
 .idea
 .venv
 .vscode
