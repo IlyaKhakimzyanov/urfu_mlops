@@ -4,8 +4,7 @@
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$PROJECT_DIR"
 cd ..
-echo 'path is'
-pwd
+source start.sh > /dev/null 2>&1
 
 #
 source .venv/bin/activate
