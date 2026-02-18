@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e  # Прерывать выполнение при ошибке
 
+# sudo apt update
+sudo apt install python3.12-venv
+
 # Проверка наличия Python
 if ! command -v python3 &> /dev/null; then
     echo "Ошибка: Python3 не установлен"
