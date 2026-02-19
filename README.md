@@ -3,5 +3,5 @@
 Участники:
 
 ## Module 1
-- Запустить ./lab1/pipeline.sh
+- Запустить ./lab1/pipeline.sh "$rand_id"
 - start.sh нужен для подгрузки библиотек
