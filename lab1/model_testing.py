@@ -7,7 +7,7 @@ import pickle
 base_path = Path(__file__).parent
 test_folder_name = 'test'
 test_folder_path = base_path / test_folder_name
-model_folder_path = base_path / 'model'
+model_folder_path = base_path / 'models'
 model_name = 'SVC_model.pkl'
 
 # Загрузка test
