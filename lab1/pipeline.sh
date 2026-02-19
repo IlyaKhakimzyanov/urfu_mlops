@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # rand id
-random_id=123
+random_id=${1:-123}
 
 # надо отдельный наверное файл для проверки библиотек
 echo 'Проверка библиотек'
@@ -10,7 +10,8 @@ cd "$PROJECT_DIR"
 cd ..
 source start.sh > /dev/null 2>&1
 echo 'Ок!'
-echo 'Запуск pipline'
+echo "Запуск $0"
+echo "rand_id = $random_id"
 
 #
 source .venv/bin/activate

@@ -3,4 +3,5 @@
 Участники:
 
 ## Module 1
-- Зарустить ./lab1/pipeline.sh
+- Запустить ./lab1/pipeline.sh
+- start.sh нужен для подгрузки библиотек
