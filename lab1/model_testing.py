@@ -8,7 +8,7 @@ base_path = Path(__file__).parent
 test_folder_name = 'test'
 test_folder_path = base_path / test_folder_name
 model_folder_path = base_path / 'models'
-model_name = 'SVC_model.pkl'
+model_name = 'clf_model.pkl'
 
 # Загрузка test
 X_test = pd.read_csv(test_folder_path / 'X_test.csv')
